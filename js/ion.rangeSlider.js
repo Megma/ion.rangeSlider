@@ -1973,7 +1973,7 @@
         validate: function () {
             var o = this.options,
                 r = this.result,
-                v = o.values,
+                v = o.values.split(','),
                 vl = v.length,
                 value,
                 i;
